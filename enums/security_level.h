@@ -1,0 +1,13 @@
+#ifndef SECURITY_LEVEL_H_ENUMS
+#define SECURITY_LEVEL_H_ENUMS
+
+typedef enum {
+    NOT_INITIALIZED,
+    UNDEFINED,
+    UNCLASSIFIED,
+    CONFIDENTIAL,
+    SECRET,
+    TOP_SECRET,
+} SecurityLevels;
+
+#endif // SECURITY_LEVEL_H_ENUMS
