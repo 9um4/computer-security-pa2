@@ -133,6 +133,7 @@
 
 - 사용자와 파일의 보안 등급을 확인 (`mac.policy`)
 - **Write-Up Policy** 확인:
+<<<<<<< HEAD
   - 사용자의 등급 ≤ 파일의 등급일 때 접근 허용
 - 접근 허용 시: 파일에 `data` 작성
 - 접근 후: root 권한 해제
@@ -274,6 +275,8 @@
 
 - 사용자와 파일의 보안 등급을 확인 (`mac.policy`)
 - **Write-Up Policy** 확인:
+=======
+>>>>>>> 439edce (Fix formatting in README.md for clarity and consistency)
   - 사용자의 등급 ≤ 파일의 등급일 때 접근 허용
 - 접근 허용 시: 파일에 `data` 작성
 - 접근 후: root 권한 해제
